@@ -1,0 +1,125 @@
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equix="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Melissa Ellen Durkin online web development portfolio">
+    <meta name="author" content="Melissa Ellen Durkin">
+    <meta name="keywords" content="HTML, CSS, JavaScript, developer, web design, web, jQuery, Chicago, NW Indiana">
+    
+    <title>Melissa Ellen Durkin - Web Development</title>
+    
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-100471301-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    
+    </head>
+    
+    <body>
+<?php include_once("analyticstracking.php") ?>
+        <nav>
+        <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            <a href="index.html"><h1>Melissa Ellen Durkin</h1><h2>Design and Development</h2></a>
+            <div id="buttons"><ul><li><a class="active" href="contact.html">CONTACT</a></li><li><a href="melissa_resume_2016.pdf" target="_blank">R&#201;SUM&#201;</a></li><li><a href="mywork.html">MY WORK</a></li><li><a href="index.html">ABOUT</a></li></ul>
+            </div>
+    
+        </nav>
+        
+        <div id="dropdown">
+        <ul>
+        <li><a href="index.html">About</a></li>
+            <li><a href="mywork.html">My Work</a></li>
+            <li><a href="melissa_resume_2016.pdf" target="_blank">R&#233;sum&#233;</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+        
+       <div class="container" id="contact">
+           <div class="row row-content">
+           <div class="col-xs-12">
+               <h4>Contact Me</h4>
+               <p class="normal">Have a question or comment? Feel free to contact me! You can use the form below, or contact me by phone or e-mail. Thank you!</p>
+               </div>
+           </div>
+           
+           <hr>
+           
+           <div class="row row-content">
+               <div class="col-xs-12 col-md-6">
+               <form action="form.php" method="post" id="contact-form">
+                <div class="form-group">
+                <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" required><br></div>
+                <div class="form-group">
+                <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" required><br><br></div>
+                <div class="form-group">
+                    <textarea name="comments" id="comments" placeholder="Comments" required></textarea></div>
+                <div class="form-group">
+                <input type="number" id="human" name="human" placeholder="Spam Check: What is 2+2?" required></div>
+                <input id="submit" type="submit" value="Send">
+                   <hr class="hidden-hr">
+                </form>
+               </div>
+               
+               
+               <div class="col-xs-12 col-md-6">
+                   <div id="contact-right">
+                   <p class="normal">
+                       Phone:<br>
+                       (219) 263-3209<br><br>
+                       E-mail:<br>
+                       <a href="mailto:hello.melissadurkin@gmail.com">hello.melissadurkin@gmail.com</a><br><br>
+                       LinkedIn:<br>
+                       <a href="https://www.linkedin.com/in/melissa-durkin-413462122" target="_blank">in/melissa-durkin-413462122</a>
+                       </p>
+                   </div>
+               </div>
+           </div>
+        </div>
+    
+        
+         <footer id="contact-footer">
+        <div class="container">
+        <div class="row row-content">
+            <div class="col-xs-6 col-md-4" id="left">
+            <img src="img/profilepic.jpg"><p class="small">My name is Melissa Ellen, I am a recent graduate and looking for am opportunity in the development field. If you have any questions please contact me. Thank you for visiting my portfolio.</p>
+            </div>
+            <div class="col-xs-6 col-md-4" id="middle">
+                <a href="https://www.linkedin.com/in/melissa-durkin-413462122" target="_blank"><img src="img/linked.png"></a><br>
+                <p class="small">Connect with me on LinkedIn</p><br>
+                <a href="mailto:hello.melissadurkin@aol.com"><img src="img/mail.png"></a><br>
+                <p class="small">Have a question? Send me an email</p>
+            </div>
+            <div class="col-md-4" id="right">
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="mywork.html">My Work</a></li>
+                <li><a href="melissa_resume_2016.pdf" target="_blank">Resume</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </div>
+            </div>
+            <div class="row row-content">
+            <div class="col-xs-12">
+                <p class="copyright">Copyright &#169; 2017 Melissa Ellen Durkin</p>
+                </div>
+            </div>
+            </div>
+        </footer>
+    </body>
+    
+</html>
